@@ -1,7 +1,5 @@
 # GIPWebsite
 
-## [bijkomende pagina's](pages)
-
 ## [bijkomende afbeeldingen](images)
 
 ## [source code font awesome](FontAwesome)
