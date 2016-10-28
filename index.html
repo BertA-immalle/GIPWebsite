@@ -5,10 +5,8 @@
 <link rel="stylesheet" href="https://yui-s.yahooapis.com/pure/0.6.0/pure-min.css">
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
 </head>
-<body bgcolor="">
-<div class="container" id="background">
-    <p>GIP WEBSITE VAN BERT ANTHONISSEN</p>
-</div>
+<body>
+<div class="headerImage" id="container">GIP WEBSITE VAN BERT ANTHONISSEN</div>
 <div class="pure-menu pure-menu-horizontal pure-menu-scrollable, container">
     <ul class="pure-menu-list">
         <li class="pure-menu-item"><a href="index.html" class="pure-menu-link">Home</a></li>
@@ -18,10 +16,10 @@
     </ul>
 </div> 
 
-<div id="header">
-    <img src="images/skyline.jpg" alt="skyline van New York">
-</div>
-
+    
+    
+    
+    
     
     
     
@@ -37,23 +35,28 @@
     font-family: fantasy;
     font-size: 40px;
 }
-
-#header{
-    left: 50%;
-    margin-left: -500px;
-    background:url(images/skyline.jpg) no-repeat;
-    width:100%;
-    height:200px;
+    
+#container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: fantasy;
+    font-size: 60px;
+    bottom: auto;
+    bottom: 0;
+    position: relative;
+    
 }
 
-#background {
-    width: 1980px;
-    height: 200px;
-    background-image: url('images/header.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-
+.headerImage{
+    width: 100%;
+    height: 130px;
+    background-image: url('images/header2.jpg');
+    background-size: 100% 100%;
 }
+
+
+
     
     
     
