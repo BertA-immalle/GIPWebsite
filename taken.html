@@ -20,11 +20,35 @@
     </ul>
 </div> 
     
+<div>
+
+<ul class="flex-container">
+    <li class="flex-item">IT Tapa</li>
+    <li class="flex-item">welkomswoord</li>
+    <li class="flex-item">yet to come</li>
+    <li class="flex-item">yet to come</li>
+    <li class="flex-item">yet to come</li>
+    <li class="flex-item">yet to come</li>
+    <li class="flex-item">yet to come</li>
+    <li class="flex-item">yet to come</li>
+    <li class="flex-item">yet to come</li>
+    <li class="flex-item">yet to come</li>
+    <li class="flex-item">...</li>
+</ul>
     
     
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
 </body>
 </html>
 <style>
@@ -35,6 +59,7 @@
     align-content: center;
     font-family: fantasy;
     font-size: 40px;
+
 }
     
 .imageHeader{
@@ -56,4 +81,46 @@
     
 }
 
+/*.takenImageStructuur{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #009933;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}*/
+    
+@import "compass/css3";
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex-item {
+    background: #006622;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+  
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 3em;
+    text-align: center;
+}
 </style>
