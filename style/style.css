@@ -6,6 +6,8 @@
     flex-basis: 25%;
     font-family: fantasy;
     font-size: 30px;
+    list-style: none;
+    
 }
     
 #containerHeader{
@@ -86,3 +88,19 @@
     border: solid 3px;
     
 }
+
+#takenpaginaOpmaak {
+    list-style: none;
+    margin: auto;
+    width: 225px;
+    height: 225px;
+}
+
+
+
+
+
+
+
+
+
