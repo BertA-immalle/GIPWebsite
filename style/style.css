@@ -35,8 +35,9 @@
     align-content: flex-start;
 }
     
-#body{
+.body{
     background-color: #f2f2f2;
+    margin-bottom: 20px;
 } 
     
 .textAlignWelkomstwoord{
@@ -47,7 +48,7 @@
     justify-content: center
 }
     
-#footer{
+.footer{
     display: flex;
     justify-content: center;
     align-content: center;
