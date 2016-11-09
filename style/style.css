@@ -97,7 +97,12 @@
     height: 225px;
 }
 
-
+.stageItem {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
 
 
 
