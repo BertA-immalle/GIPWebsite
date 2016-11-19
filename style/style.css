@@ -1,24 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>eerste versie</title>
-<link rel="stylesheet" href="https://yui-s.yahooapis.com/pure/0.6.0/pure-min.css">
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
-</head>
-<body>
-<div class="pure-menu pure-menu-horizontal pure-menu-scrollable, container">
-    <ul class="pure-menu-list">
-        <li class="pure-menu-item"><a href="index.html" class="pure-menu-link">Home</a></li>
-        <li class="pure-menu-item"><a href="taken.html" class="pure-menu-link">Taken</a></li>
-        <li class="pure-menu-item"><a href="stage.html" class="pure-menu-link">Stage</a></li>
-        <li class="pure-menu-item"><a href="info.html" class="pure-menu-link">Info</a></li>
-    </ul>
-</div>
-    
-</body>
-</html>
-
-<style>
 .container{
     display: flex;
     justify-content: center;
@@ -27,6 +6,7 @@
     flex-basis: 25%;
     font-family: fantasy;
     font-size: 30px;
+    list-style: none;
 }
     
 #containerHeader{
@@ -45,21 +25,18 @@
 .imageHeader{
     width: 100%;
     height: 130px;
-    background-image: url('images/header2.jpg');
     background-size: 100% 100%;
 }
-
 
 .containerWelkomstWoord{
     display: flex;
     justify-content: flex-start;
     align-content: flex-start;
-    
-    
 }
     
-#body{
+.body{
     background-color: #f2f2f2;
+    margin-bottom: 20px;
 } 
     
 .textAlignWelkomstwoord{
@@ -70,7 +47,7 @@
     justify-content: center
 }
     
-#footer{
+.footer{
     display: flex;
     justify-content: center;
     align-content: center;
@@ -79,5 +56,61 @@
     bottom: 0;
     margin-bottom: 5px;
     position: fixed;
-}   
-</style>
+} 
+
+
+    
+@import "compass/css3";
+
+.flex-container {
+    list-style: none;
+  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-start;
+    
+}
+
+.flex-item {
+    /*background: #0000b3;
+    margin-left: 3px;
+    margin-right: 3px;*/
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 3em;
+    text-align: center;
+    border: solid 3px;
+    
+}
+
+#takenpaginaOpmaak {
+    list-style: none;
+    margin: auto;
+    width: 225px;
+    height: 225px;
+}
+
+.stageItem {
+    margin: 20px;
+    display: flex;
+    list-style: none;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+    flex-basis: 25%;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
+}
+
+
+
+
+
+
+
