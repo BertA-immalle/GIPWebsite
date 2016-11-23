@@ -112,6 +112,17 @@
     padding: 15px;
 }
 
+.containerInfopage{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
+    flex-basis: 25%;
+    font-family: monospace;
+    font-size: 25px;
+    list-style: none;
+}
+
 
 
 
