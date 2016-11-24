@@ -125,7 +125,11 @@
     text-align: justify;
 }
 
-
+.main{
+    background-color: beige;
+    height: 754px;
+    width: 100%;
+}
 
 
 
