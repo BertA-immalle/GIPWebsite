@@ -108,12 +108,11 @@
     flex-flow: row wrap;
 }
 
-<<<<<<< HEAD
 .image{
     width: 100%;
     height: 130px;
 }
-=======
+
 #stagePNGPadding{
     padding: 15px;
 }
@@ -128,8 +127,6 @@
     font-size: 25px;
     list-style: none;
 }
-
->>>>>>> eea634c68f662c42824ee7fae352eb184d0092db
 
 
 
