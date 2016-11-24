@@ -108,10 +108,28 @@
     flex-flow: row wrap;
 }
 
+<<<<<<< HEAD
 .image{
     width: 100%;
     height: 130px;
 }
+=======
+#stagePNGPadding{
+    padding: 15px;
+}
+
+.containerInfopage{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
+    flex-basis: 25%;
+    font-family: monospace;
+    font-size: 25px;
+    list-style: none;
+}
+
+>>>>>>> eea634c68f662c42824ee7fae352eb184d0092db
 
 
 
