@@ -148,10 +148,7 @@
 
 .wrapper{
     background-color: #f2f2f2;
-    margin-top: 0px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    margin-top: 20px;
     
 }
 
@@ -226,11 +223,11 @@ progress[value]::-webkit-progress-value {
 
 /* tryout css */
 
-/* entire container, keeps perspective */
+/* entire container, keeps perspective 
 .flip-container {
 	perspective: 1000px;
 }
-	/* flip the pane when hovered */
+	/* flip the pane when hovered 
 	.flip-container:hover .flipper, .flip-container.hover .flipper {
 		transform: rotateY(180deg);
 	}
@@ -240,7 +237,7 @@ progress[value]::-webkit-progress-value {
 	height: 480px;
 }
 
-/* flip speed goes here */
+/* flip speed goes here 
 .flipper {
 	transition: 0.6s;
 	transform-style: preserve-3d;
@@ -248,7 +245,7 @@ progress[value]::-webkit-progress-value {
 	position: relative;
 }
 
-/* hide back of pane during swap */
+/* hide back of pane during swap 
 .front, .back {
 	backface-visibility: hidden;
 
@@ -257,14 +254,14 @@ progress[value]::-webkit-progress-value {
 	left: 0;
 }
 
-/* front pane, placed above back */
+/* front pane, placed above back 
 .front {
 	z-index: 2;
-	/* for firefox 31 */
+	/* for firefox 31 
 	transform: rotateY(0deg);
 }
 
-/* back, initially hidden pane */
+/* back, initially hidden pane 
 .back {
 	transform: rotateY(180deg);
-}
+} */
