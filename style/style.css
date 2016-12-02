@@ -1,3 +1,20 @@
+/* normal textmarkup */
+
+.blockquote{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.h1 .p{
+    text-align: justify;
+    
+}
+
+.body{
+    background-color: #f2f2f2;
+}
+/* classes */
+
 .container{
     display: flex;
     justify-content: center;
@@ -7,7 +24,6 @@
     font-family: fantasy;
     font-size: 30px;
     list-style: none;
-    
 }
     
 #containerHeader{
@@ -35,28 +51,26 @@
     align-content: flex-start;
 }
     
-.body{
-    background-color: #f2f2f2;
-    margin-bottom: 20px;
-} 
-    
 .textAlignWelkomstwoord{
     margin-left: 1cm;
     margin-right: 1cm;
     text-align: justify;
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
     
 .footer{
     display: flex;
     justify-content: center;
     align-content: center;
-    font-family: fantasy;
-    font-size: 25px;
-    bottom: 0;
+    font-family: inherit;
+    font-size: 15px;
     margin-bottom: 5px;
     position: fixed;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    
 } 
 
 
@@ -78,9 +92,6 @@
 }
 
 .flex-item {
-    /*background: #0000b3;
-    margin-left: 3px;
-    margin-right: 3px;*/
     color: white;
     font-weight: bold;
     font-family: monospace;
@@ -109,9 +120,203 @@
     flex-flow: row wrap;
 }
 
+.image{
+    width: 100%;
+    height: 130px;
+}
+
+#stagePNGPadding{
+    padding: 15px;
+}
+
+.containerInfopage{
+    display: flex;
+    justify-content: center;
+    flex-basis: 25%;
+    font-family: monospace;
+    font-size: 20px;
+    list-style: none;
+    text-align: justify;
+}
+
+.section1{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.section2{
+    background-color: #f7f7f7;
+}
+
+.wrapper{
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    box-shadow: 10px 10px 5px #888888;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+
+/* IT Profile CSS */
+
+.containerITProfile{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 20px;
+    
+}
+
+/* much needed */
+ progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+   appearance: none;
+
+  width: 250px;
+  height: 20px;
+}
+  
+/* background */
+progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    
+    
+}
+
+/* foreground */
+progress[value]::-webkit-progress-value {
+  background-image:
+      
+      /* stripes */
+	   -webkit-linear-gradient(-45deg, 
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+      
+      /* top */
+	   -webkit-linear-gradient(top, 
+	                           rgba(255, 255, 255, .25), 
+	                           rgba(0, 0, 0, .25)),
+      
+      /* fading */
+	   -webkit-linear-gradient(left, #08175b, #0b2491);
+
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+.pictureTask{
+    width: 300px;
+    height: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.question{
+    margin-bottom: 30px;
+}
+
+.ITProfile{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.ITTApa{
+    display: flex;
+    justify-content: center;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    box-shadow: 5px 5px 1px #cce6ff;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 35.25%;
+	padding-top: 25px;
+	height: 0;
+    margin:15%;
+    margin-bottom:10px;
+    margin-top:15px;
+}
+
+.FAQ{
+    font-family: inherit;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.KathySite{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    float: right;
+}
+
+.imgAlign{
+    float: left;
+}
 
 
 
 
 
 
+
+
+/* tryout css */
+
+/* entire container, keeps perspective 
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered 
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+}
+
+/* flip speed goes here 
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap 
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back 
+.front {
+	z-index: 2;
+	/* for firefox 31 
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane 
+.back {
+	transform: rotateY(180deg);
+} */
