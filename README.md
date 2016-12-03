@@ -4,9 +4,11 @@
 
 ## [source code font awesome](FontAwesome)
 
+## [css](style)
+
 ## uitleg
 
-Dit is een schoolproject. Niet te gebruiken voor commerciële doeleinden.
+Mijn naam is Bert Anthonissen en een trotse leerling van het Immaculata Instituut Oostmalle. Dit is een schoolprojectn niet te gebruiken voor commerciële doeleinden.
 
 
 

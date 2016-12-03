@@ -158,11 +158,16 @@
     background-color: #f2f2f2;
     margin-top: 20px;
     box-shadow: 10px 10px 5px #888888;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.wrapper-content{
     display: flex;
     align-content: center;
     justify-content: center;
     text-align: justify;
-    margin-bottom: 25px;
 }
 
 
@@ -270,7 +275,7 @@ progress[value]::-webkit-progress-value {
     height: 70px;
     border-radius: 50%;
     float: right;
-    margin-left: 5px;
+    margin: 5px;
 }
 
 .imgAlign{
