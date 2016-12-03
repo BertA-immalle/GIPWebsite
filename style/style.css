@@ -238,6 +238,17 @@ progress[value]::-webkit-progress-value {
     background-size: 35px 20px, 100% 100%, 100% 100%;
 }
 
+progress[value]::-webkit-progress-value::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  border-radius: 100%;
+  right: 7px;
+  top: 7px;
+  background-color: white;
+}
+
 .pictureTask{
     width: 300px;
     height: 300px;
