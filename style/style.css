@@ -16,7 +16,9 @@
     align-content: center;
 }
 
-
+.body{
+    min-height: inherit;
+}
 
 
 /* classes */
@@ -161,6 +163,21 @@
     margin: 40px;
 }
 
+.footer{
+    text-align:right;
+	width: auto;
+	background-color: #a3a3a3;
+	position: relative;
+	clear: both;
+    bottom: 0;
+}
+
+.footer-seperator{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
 .wrapper-content{
     display: flex;
     align-content: center;
@@ -283,9 +300,45 @@ progress[value]::-webkit-progress-value {
     margin-top: 10px;
 }
 
+.stageZin{
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+.border-trim{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #a3a3a3;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+
+
+
+
 
 
 
 
 
 /* tryout css */
+
+
