@@ -1,4 +1,4 @@
-/* ALGEMEEN */
+                                        /* ALGEMEEN */
 
 .footerFromTheDepths{
     margin-top: 100px;   
@@ -232,7 +232,7 @@ footer {
 
 
 
-/* IT-TAPA */
+                                        /* IT-TAPA */
 
 .ITTApa{
     display: flex;
@@ -280,7 +280,7 @@ footer {
 
 
 
-/* IT-PROFILE */
+                                        /* IT-PROFILE */
 
 .ITProfile{
     display: flex;
@@ -302,7 +302,7 @@ footer {
     
 }
 
-/* WELKOMSTWOORD */
+                                        /* WELKOMSTWOORD */
     
 .Welkomstwoord-text-align{
     margin-left: 1cm;
@@ -312,7 +312,7 @@ footer {
     justify-content: center;
 }
 
-/* STAGE */
+                                        /* STAGE */
 
 .stageZin{
     font-family: fantasy;
@@ -333,6 +333,16 @@ footer {
 
 
 
-/* ZELFREFLECTIE GIP */
+                                        /* ZELFREFLECTIE GIP */
 
-/* TRYOUT CSS */
+.zelfreflectie{
+    margin-bottom: 100px;
+}
+
+.zelfreflectie-contentalign{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+                                        /* TRYOUT CSS */
