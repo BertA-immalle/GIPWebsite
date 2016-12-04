@@ -1,9 +1,11 @@
-                                        /* ALGEMEEN */
+/* ALGEMEEN */
 
 .blockquote-ITAutobiography{
     margin-left: 30px;
     margin-right: 30px;
 }
+
+.blok
 
 .h1 .p{
     text-align: justify;
@@ -29,23 +31,6 @@ body {
     margin: 0 0 100px; /* bottom = footer height */
 }
 
-footer {
-    background-color: #a3a3a3;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-    overflow: hidden;
-}
-
-.border-trim{
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    margin-bottom: 20px;
-}
-
 .container{
     display: flex;
     justify-content: center;
@@ -67,6 +52,13 @@ footer {
     bottom: auto;
     bottom: 0;
     position: relative;
+    
+}
+
+.imageHeader{
+    width: 100%;
+    height: 130px;
+    background-size: 100% 100%;
 }
 
 .footer{
@@ -79,20 +71,23 @@ footer {
     position: fixed;
     text-align: center;
     bottom: 0;
-    left: 0; 
+    left: 0;  
 } 
-
+  
 @import "compass/css3";
 
 .flex-container {
     list-style: none;
+  
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+  
     -webkit-flex-flow: row wrap;
-    justify-content: flex-start;  
+    justify-content: flex-start;
+    
 }
 
 .flex-item {
@@ -101,7 +96,35 @@ footer {
     font-family: monospace;
     font-size: 3em;
     text-align: center;
-    border: solid 3px;    
+    border: solid 3px; 
+}
+
+.image{
+    width: 100%;
+    height: 130px;
+}
+
+#stagePNGPadding{
+    padding: 15px;
+}
+
+.containerInfopage{
+    display: flex;
+    justify-content: center;
+    flex-basis: 25%;
+    font-family: monospace;
+    font-size: 20px;
+    list-style: none;
+    text-align: justify;
+}
+
+.wrapper{
+    background-color: #f2f2f2;
+    box-shadow: 10px 10px 5px #888888;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
 }
 
 .footer{
@@ -126,81 +149,7 @@ footer {
     text-align: justify;
 }
 
-.wrapper{
-    background-color: #f2f2f2;
-    box-shadow: 10px 10px 5px #888888;
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 50px;
-}
 
-.imageHeader{
-    width: 100%;
-    height: 130px;
-    background-size: 100% 100%;
-}
-
-
-
-                                        /* WELKOMSTWOORD */
-
-.containerWelkomstWoord{
-    display: flex;
-    justify-content: flex-start;
-    align-content: flex-start;
-}
-
-.textAlignWelkomstwoord{
-    margin-left: 1cm;
-    margin-right: 1cm;
-    text-align: justify;
-    display: flex;
-    justify-content: center;
-}
-
-
-
-                                        /* STAGE */
-
-#stagePNGPadding{
-    padding: 15px;
-}
-
-.stageItem {
-    margin: 20px;
-    display: flex;
-    list-style: none;
-    margin-left: 0.5cm;
-    margin-right: 0.5cm;
-    flex-basis: 25%;
-    justify-content: center;
-    align-content: center;
-    flex-flow: row wrap;
-}
-
-.stageZin{
-    font-family: fantasy;
-    font-size: 30px;
-}
-
-
-
-                                        /* IT-PROFILE */
-
-.ITProfile{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-.containerITProfile{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    font-size: 20px;
-    
-}
 
 /* much needed */
  progress[value] {
@@ -253,19 +202,33 @@ progress[value]::-webkit-progress-value::after {
   background-color: white;
 }
 
-.ITProfile-names{
-    float: left;
-    display: inline-block;
-    margin-left: 20px;
+.imgAlign{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.border-trim{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #a3a3a3;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
 }
 
 
 
-                                        /* IT-TAPA */
-
-.question{
-    margin-bottom: 30px;
-}
+/* IT-TAPA */
 
 .ITTApa{
     display: flex;
@@ -307,13 +270,61 @@ progress[value]::-webkit-progress-value::after {
     margin: 5px;
 }
 
-.imgAlign{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
+.question{
+    margin-bottom: 30px;
 }
 
 
 
-                                        /* TRYOUT CSS */
+/* IT-PROFILE */
+
+.ITProfile{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.ITProfile-names{
+    float: left;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.ITProfile-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 20px;
+    
+}
+
+/* WELKOMSTWOORD */
+    
+.Welkomstwoord-text-align{
+    margin-left: 1cm;
+    margin-right: 1cm;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+
+/* STAGE */
+
+.stageZin{
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+.stageItem {
+    margin: 20px;
+    display: flex;
+    list-style: none;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+    flex-basis: 25%;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
+}
+
+/* TRYOUT CSS */
