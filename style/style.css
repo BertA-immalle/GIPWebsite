@@ -348,6 +348,8 @@ td, th {
     justify-content: center;
     align-content: center;
     flex-flow: row wrap;
+    width: 400px;
+    height: 400px;
 }
 
 .nextimage-position-right{
