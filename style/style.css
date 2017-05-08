@@ -423,6 +423,9 @@ td, th {
     display: block;
     margin: auto;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 #test{
