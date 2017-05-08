@@ -381,6 +381,17 @@ td, th {
     border-style: solid;
 }
 
+.image-stageverslag{
+    width: 500px;
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+
+.FRA-zin{
+    text-align: center
+}
+
 
                                         /* ZELFREFLECTIE GIP */
 
