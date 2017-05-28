@@ -392,6 +392,20 @@ td, th {
     text-align: center
 }
 
+                                        /* WEBAPP */
+
+.webapp-padding{
+    padding: 20px;
+}
+
+.resize{
+    width: 950px;
+    height: 400px;
+}
+
+
+
+
 
                                         /* ZELFREFLECTIE GIP */
 
