@@ -392,6 +392,20 @@ td, th {
     text-align: center
 }
 
+.stage-text-color{
+    color: gray;
+}
+
+.center-sentence{
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+
                                         /* WEBAPP */
 
 .webapp-padding{
