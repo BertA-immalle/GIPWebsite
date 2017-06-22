@@ -444,6 +444,13 @@ td, th {
 
 
 
+                                        /* TESTOPSTELLING */
+
+.align-iframe-testopstelling{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    }
 
                                         /* TRYOUT CSS */
 
